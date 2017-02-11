@@ -1,0 +1,104 @@
+public class Persona {
+String nombre;
+double peso;
+String ApellidoP;
+String ApellidoM;
+int edad;
+char estado_civil;
+String curp;
+
+
+
+public Persona(){
+	nombre="";
+	peso=0.0;
+	ApellidoP="";
+	ApellidoM="";
+	edad=0;
+	estado_civil='s';
+	curp="";
+}
+
+
+
+public String getNombre() {
+	return nombre;
+}
+
+
+
+public void setNombre(String nombre) {
+	this.nombre = nombre;
+}
+
+
+
+public double getPeso() {
+	return peso;
+}
+
+
+
+public void setPeso(double peso) {
+	this.peso = peso;
+}
+
+
+
+public String getApellidoP() {
+	return ApellidoP;
+}
+
+
+
+public void setApellidoP(String apellidoP) {
+	ApellidoP = apellidoP;
+}
+
+
+
+public String getApellidoM() {
+	return ApellidoM;
+}
+
+
+
+public void setApellidoM(String apellidoM) {
+	ApellidoM = apellidoM;
+}
+
+
+
+public int getEdad() {
+	return edad;
+}
+
+
+
+public void setEdad(int edad) {
+	this.edad = edad;
+}
+
+
+
+public char getEstado_civil() {
+	return estado_civil;
+}
+
+
+
+public void setEstado_civil(char estado_civil) {
+	this.estado_civil = estado_civil;
+}
+
+
+
+public String getCurp() {
+	return curp;
+}
+
+
+
+public void setCurp(String curp) {
+	this.curp = curp;
+}
